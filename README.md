@@ -14,6 +14,12 @@ Creation of an app for Technical Assessments.
 It was an API Dummy for testing "Activities operations"
 [http://fakerestapi.azurewebsites.net](http://fakerestapi.azurewebsites.net/Help)
 
+### Access database (secret.js)
+For getting access to the MongoDb, **you need to create .ts file with the name "secret.ts"**. The content of this file must be:
+export const dbAccess = {
+    "URI": "mongodb+srv://< username >:< password >@mymongo-8ndql.mongodb.net/test?retryWrites=true&w=majority"
+}
+
 ### Run the app | port 3000
 ###### Directly from Typescript for developers
 "dev": "nodemon src/app.ts"
