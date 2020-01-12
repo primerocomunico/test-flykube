@@ -7,8 +7,6 @@ Creation of an app for Technical Assessments.
 - Express
 - MongoDB
 - Mongoose
-- Angular
-- Bootstrap
 
 ### API web (Backend)
 It was an API Dummy for testing "Activities operations"
